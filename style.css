@@ -1,10 +1,10 @@
 body { 
     background-color: #000000;
     font-family: Arial, sans-serif;
-    color: #2236ec;
+    color: #fefeff;
 }
 h1 {
-    color: #f9e508;
+    color: #c300ff;
     text-align: center;
     margin-top: 50px;
 }
@@ -12,4 +12,68 @@ p {
     font-size: 18px;
     line-height: 1.6;
     margin: 20px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Navigation */
+nav {
+    background: #222;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: #333;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero .btn {
+    background: #ff6600;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services */
+#services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service-box {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contact */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
 }
